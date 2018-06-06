@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Test</title>
+        <title>Quizzes</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/cSss?family=Lato" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <title>Website</title>
+        <title>Bootstrap Example</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -19,9 +19,7 @@
             body {
             font-family: "Lato", sans-serif;
             }
-            .p{
-               color: #303030;
-            }
+
             .sidenav {
                 height: 100%;
                 width: 0;
@@ -29,8 +27,8 @@
                 z-index: 1;
                 top: 0;
                 left: 0;
-                background-color: seagreen;
-                overflow-x: hidden;
+                background-color:#ffc000; 
+                overflow-x: hidden; 
                 transition: 0.5s;
                 padding-top: 60px;
             }
@@ -63,11 +61,7 @@
             body {
                 font: 400 15px Lato, sans-serif;
                 line-height: 1.8;
-                color:#303030;
-                background-color:white
-            }
-            .text{
-                color:#303030;
+                color: white;
             }
             h2 {
                 font-size: 24px;
@@ -85,7 +79,7 @@
             }  
 
             .jumbotron {
-                background-color: mediumseagreen;
+                background-color: gold;
                 color: #fff;
                 padding: 100px 25px;
                 font-family: Montserrat, sans-serif;
@@ -97,11 +91,11 @@
                 background-color: #f6f6f6;
             }
             .OPEN-small {
-                color: mediumseagreen;
+                color: gold;
                 font-size: 50px;
             }
             .OPEN {
-                color: mediumseagreen;
+                color: gold;
                 font-size: 200px;
             }
             .thumbnail {
@@ -114,16 +108,6 @@
                 height: 100%;
                 margin-bottom: 10px;
             }
-            .carousel-control.right, .carousel-control.left {
-                background-image: none;
-                color: mediumseagreen;
-            }
-            .carousel-indicators li {
-                border-color: mediumseagreen;
-            }
-            .carousel-indicators li.active {
-                background-color: mediumseagreen;
-            }
             .item h4 {
                 font-size: 19px;
                 line-height: 1.375em;
@@ -135,7 +119,7 @@
                 font-style: normal;
             }
             .panel {
-                border: 1px solid mediumseagreen; 
+                border: 1px solid gold; 
                 border-radius:0 !important;
                 transition: box-shadow 0.5s;
             }
@@ -143,13 +127,13 @@
                 box-shadow: 5px 0px 40px rgba(0,0,0, .2);
             }
             .panel-footer .btn:hover {
-                border: 1px solid mediumseagreen;
+                border: 1px solid gold;
                 background-color: #fff !important;
-                color: mediumseagreen;
+                color: gold;
             }
             .panel-heading {
                 color: #fff !important;
-                background-color: mediumseagreen !important;
+                background-color: gold !important;
                 padding: 25px;
                 border-bottom: 1px solid transparent;
                 border-top-left-radius: 0px;
@@ -169,12 +153,12 @@
             }
             .panel-footer .btn {
                 margin: 15px 0;
-                background-color: mediumseagreen;
+                background-color: gold;
                 color: #fff;
             }
             .navbar {
                 margin-bottom: 0;
-                background-color: mediumseagreen;
+                background-color: gold;
                 z-index: 9999;
                 border: 0;
                 font-size: 12px !important;
@@ -187,74 +171,14 @@
                 color: #fff !important;
             }
             .navbar-nav li a:hover, .navbar-nav li.active a {
-                color: mediumseagreen !important;
+                color: gold !important;
                 background-color: #fff !important;
             }
             .navbar-default .navbar-toggle {
                 border-color: transparent;
                 color: #fff !important;
             }
-            footer .glyphicon {
-                font-size: 20px;
-                margin-bottom: 20px;
-                color: mediumseagreen;
-            }
-            .slideanim {visibility:hidden;}
-            .slide {
-                animation-name: slide;
-                -webkit-animation-name: slide;
-                animation-duration: 1s;
-                -webkit-animation-duration: 1s;
-                visibility: visible;
-            }
-            @keyframes slide {
-                0% {
-                opacity: 0;
-                transform: translateY(70%);
-                } 
-                100% {
-                opacity: 1;
-                transform: translateY(0%);
-                }
-            }
-            @-webkit-keyframes slide {
-                0% {
-                opacity: 0;
-                -webkit-transform: translateY(70%);
-                } 
-                100% {
-                opacity: 1;
-                -webkit-transform: translateY(0%);
-                }
-            }
-            @media screen and (max-width: 768px) {
-                .col-sm-4 {
-                text-align: center;
-                margin: 25px 0;
-                }
-                .btn-lg {
-                    width: 100%;
-                    margin-bottom: 35px;
-                }
-            }
-            @media screen and (max-width: 480px) {
-                .OPEN {
-                    font-size: 150px;
-                }
-            }
-            .button {
-                background-color: mediumseagreen; /* Green */
-                border: none;
-                color:#303030;
-                padding: 20px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 50px;
-                margin: 4px 2px;
-                cursor: pointer;
-            }
-            .button {border-radius: 8px;}
+  
         </style>
     </head>
     <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -288,65 +212,30 @@
             document.getElementById("mySidenav").style.width = "0";
         }
         </script>
-            </div>
-
-            <div class="collapse navbar-collapse" id="myNavbar">
-            
-            </div>
-            </div>
         </nav>
-
         <div class="jumbotron text-center">
-        <h1>Test</h1> 
-        <p>Complete this test to see how much you have learned from this website after reading all the information and taking the quizzes</p> 
+        <h1>Quizzes</h1> 
+        <p>High School Math</p> 
         </div>
-        </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
-    <script type = "text/template" id="template">
-    <div class="card">
-        <h4><strong> {{& question}} </strong></h4>
-        <h4>Choice 1:  {{& choice1}} </h4>
-        <h4>Choice 2:  {{& choice2}} </h4>
-        <h4>Choice 3:  {{& choice3}} </h4>
-        <h4>Choice 4:  {{& choice4}} </h4>
-        <input type ="text" id="{{id}}" placeholder = "Enter Choice">
-    </div>
-    </script>
-    <script>
-        var data;
-        function loadJSON(){
-            $.getJSON("https://high-school-math-we.firebaseio.com/.json", function(results){
-                data = results
-                displayData();
-            })
-        }
-        function displayData(){
-            var build = "";
-            var output = document.getElementById("output");
-            var template = document.getElementById("template").innerHTML
-            for(var key in data.Test){
-                build += Mustache.render(template,data.Test[key])
-            }
-            output.innerHTML = build
-        }
-        function grade(){
-            var score = 0;
-            for(var i = 1; i <= 20; i++){
-                var correctAnswer = data.Test["q" + i].answer;
-                var userAnswer = document.getElementById("q"+i).value;
-                if(correctAnswer == userAnswer){
-                    score ++;
-                }
-            }
-            alert("You scored " + (score * 5) + "%")
-        }
-    </script>
-    <body onload="loadJSON()">
-        <div id="output"></div>
-        <button onclick="grade()">Grade</button>
-    </body>
-    <script>
+
+        <!-- Container (algebra Section) -->
+        <div id="algebra" class="container-fluid text-center">
+            <h2>Algebra Quiz</h2>
+            <a href="file:///C:/Users/jaran6383/Documents/Webserver/algebra%20quiz.html"><h3>Click To Begin Quiz</h3></a>
+        </div>
+
+        <!-- Container (trig Section) -->
+        <div id="trig" class="container-fluid text-center bg-grey">
+            <h2>Trigonometry Quiz</h2>
+            <a href="file:///C:/Users/jaran6383/Documents/Webserver/trigonometry%20quiz.html"><h3>Click To Begin Quiz</h3></a>
+        </div>
+
+        <div id="geo" class="container-fluid text-center">
+            <h2>Geometry Quiz</h2>
+            <a href="file:///C:/Users/jaran6383/Documents/Webserver/geometry%20quiz.html"><h3>Click To Begin Quiz</h3></a>
+        </div>
+
+        <script>
             $(document).ready(function(){
             $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
                 if (this.hash !== "") {
@@ -372,5 +261,6 @@
             })
         </script>
     </body>
+<body>
+</body>
 </html>
-
